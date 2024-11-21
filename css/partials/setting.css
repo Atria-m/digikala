@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: Yekan;
+  src: url(../../font/Yekan/IRANYekanWeb-Bold.eot);
+  src: url(../../font/Yekan/IRANYekanWeb-Bold.ttf);
+  src: url(../../font/Yekan/IRANYekanWeb-Bold.woff);
+  src: url(../../font/Yekan/IRANYekanWeb-Bold.woff2);
+}
+@font-face {
+  font-family: Number;
+  src: url(../../font/Number/ARezvan-fat.eot);
+  src: url(../../font/Number/ARezvan-fat.ttf);
+  src: url(../../font/Number/ARezvan-fat.woff);
+  src: url(../../font/Number/ARezvan-fat.woff2);
+ 
+}
+:root {
+  --fontFamily: Yekan;
+  --fontNumber: Number;
+}
+.wrapper {
+  width: 100%;
+}
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: 1px solid #e0e0e2;
+}
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  font-size: 11px;
+  color: black;
+  font-weight: bold;
+}
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  opacity: 0;
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  width: 5px;
+  height: 5px;
+  background-color: #2b2b2b;
+  transition: 300ms;
+}
+
+.swiper-pagination-bullet-active {
+  width: 20px !important;
+  height: 5px;
+  border-radius: 3px;
+  background-color: white !important;
+}
+::-webkit-scrollbar{
+  width: 8px;
+  background-color: #F0F0F1;
+}
+::-webkit-scrollbar-thumb{
+  width: 8px;
+  background-color: #C0C2C5;
+}

@@ -1,0 +1,16 @@
+.promo{
+    width: 100%;
+    height: 167px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    .promo-center{
+        width: 70%;
+        height: inherit;
+        .promo-center-img{
+            width: 100%;
+            height: inherit;
+            border-radius: 16px;
+        }
+    }
+}
